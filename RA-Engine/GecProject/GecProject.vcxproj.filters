@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="IMGUI">
+      <UniqueIdentifier>{51012547-714d-4431-a099-82481217d4e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pugi">
+      <UniqueIdentifier>{cb8a29b7-1f46-4f41-915e-62082bac8b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{08851ae4-79b5-455f-b671-4109c4215595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Base Entities">
+      <UniqueIdentifier>{ad4857a2-063a-440f-a127-092176f6831a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{7c564724-ba0e-4ea9-8184-98d4b56c7390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation">
+      <UniqueIdentifier>{88c03548-0382-4023-8d94-0170618c1cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Physics">
+      <UniqueIdentifier>{0fdca578-1d54-4a9a-9005-d3d798386202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{c7db95b0-5ef7-4c84-9215-4b32e2f6038b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IMGUI\imgui.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="IMGUI\imgui_draw.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="IMGUI\imgui_tables.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="IMGUI\imgui_widgets.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="IMGUI\imgui-SFML.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="RedirectCout.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pugixml\src\pugixml.cpp">
+      <Filter>Pugi</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Base Entities\Character.cpp">
+      <Filter>Entities\Base Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Base Entities\Entity.cpp">
+      <Filter>Entities\Base Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Base Entities\PhysicsEntity.cpp">
+      <Filter>Entities\Base Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Player.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\projectile.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GraphicsSystem.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Tilemap.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation\Physics\CollisionMask.cpp">
+      <Filter>Simulation\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation\Physics\MyVector.cpp">
+      <Filter>Simulation\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation\InputSystem.cpp">
+      <Filter>Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation\WorldSystem.cpp">
+      <Filter>Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundSystem.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Sword.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\OcttoEnemy.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\CopterEnemy.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExternalHeaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml\src\pugiconfig.hpp">
+      <Filter>Pugi</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml\src\pugixml.hpp">
+      <Filter>Pugi</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Base Entities\Character.h">
+      <Filter>Entities\Base Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Base Entities\Entity.h">
+      <Filter>Entities\Base Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Base Entities\PhysicsEntity.h">
+      <Filter>Entities\Base Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Player.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\projectile.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GraphicsSystem.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Tilemap.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation\Physics\CollisionMask.h">
+      <Filter>Simulation\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation\Physics\MyVector.h">
+      <Filter>Simulation\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation\Physics\Physics.hpp">
+      <Filter>Simulation\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation\InputSystem.h">
+      <Filter>Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation\WorldSystem.h">
+      <Filter>Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundSystem.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Sword.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\OcttoEnemy.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\CopterEnemy.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\fragmentShader.frag">
+      <Filter>Graphics</Filter>
+    </None>
+    <None Include="Graphics\vertexShader.vert">
+      <Filter>Graphics</Filter>
+    </None>
+    <None Include="ClassDiagram.cd">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Data\Levels\Level5.xml">
+      <Filter>Source Files</Filter>
+    </Xml>
+    <Xml Include="Data\Levels\Level1.xml">
+      <Filter>Source Files</Filter>
+    </Xml>
+    <Xml Include="Data\Levels\Level2.xml">
+      <Filter>Source Files</Filter>
+    </Xml>
+    <Xml Include="Data\Levels\Level3.xml">
+      <Filter>Source Files</Filter>
+    </Xml>
+    <Xml Include="Data\Levels\Level4.xml">
+      <Filter>Source Files</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1040 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="outbuf" Collapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAgAAAAIAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>RedirectCout.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="outbuferr" Collapsed="true">
+    <Position X="21.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAABAAAAAgAAAAAAAAAAAAAAAEBAAAAAAAA=</HashCode>
+      <FileName>RedirectCout.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="compact_hash_table" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAgAAAABAEAACAAAgAAQAABAAAAIACACAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="compact_header" Collapsed="true">
+    <Position X="21.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAgAAAAgAAAAAQAAAAAAIAAAAAAgAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="compact_pointer&lt;T, header_offset, start&gt;" Collapsed="true">
+    <Position X="23" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIABAAAAAAAAAAAAgAAAAAAAAAAAAAiAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="compact_pointer_parent&lt;T, header_offset&gt;" Collapsed="true">
+    <Position X="24.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIABAAAAAAAAAAAAgAAAAAAAAAAAAAgAAAAAIA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="compact_string&lt;header_offset, base_offset&gt;" Collapsed="true">
+    <Position X="26.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAIAAAAAAAAAAAAgAAAAACA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="xml_buffered_writer" Collapsed="true">
+    <Position X="19.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAgAAAAAAAAIAAkQhgAAAAEBA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="xpath_string" Collapsed="true">
+    <Position X="28.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAgAAAAAAAGAEAAASADAAIAAAAAAAUQAAAABAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="xpath_node_set_raw" Collapsed="true">
+    <Position X="24.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAmAAAAAQQgAIEEAAASAAABAAAAAAEAAAQggAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="xpath_lexer" Collapsed="true">
+    <Position X="19.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAQAAAAAAAAAAAAAAAQAAAAhAQAAAAEgAAAAAIAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="xpath_ast_node" Collapsed="true">
+    <Position X="16" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GJUBEAAAFAAwIAUAgIAAAAAAAABgIQggBAAoAFACAAQ=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CopterEnemy">
+    <Position X="71.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEABAAAQAAAAAAAAAAAAkACA=</HashCode>
+      <FileName>Entities\CopterEnemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OcttoEnemy">
+    <Position X="75.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAQAAAAAAAAAAAAAAAEAAAAAAgBAAAABAgBAAkACA=</HashCode>
+      <FileName>Entities\OcttoEnemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="51" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAEAAAACAAAAgEAAAAQgAAAAAAAAAAAAQBQAEAAA=</HashCode>
+      <FileName>Entities\Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projectile">
+    <Position X="66.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAACAACAAAAAAAAAAAAAAAAAQAAAAgAEIAA=</HashCode>
+      <FileName>Entities\projectile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sword">
+    <Position X="68.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAUAAA=</HashCode>
+      <FileName>Entities\Sword.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character">
+    <Position X="51" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAgAAAAAAAAAAAAgACAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Base Entities\Character.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity">
+    <Position X="51" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAIAAQACAAAEAAAAIAAECCACAAAAAIAAAgAAjEAAE=</HashCode>
+      <FileName>Entities\Base Entities\Entity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicsEntity">
+    <Position X="51" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAACAgAAAAAAAAAAgAAQAQBAAAAAQACA=</HashCode>
+      <FileName>Entities\Base Entities\PhysicsEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animation">
+    <Position X="34.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAIAAAEAIkAAAAAgAIAAAAAAACgAAAIAAAAAAAFAAE=</HashCode>
+      <FileName>Graphics\Animation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsSystem">
+    <Position X="35.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OEAAgAEAPECjIgJAAyAABAAAAAEAAAQIAAIAAABBAUo=</HashCode>
+      <FileName>Graphics\GraphicsSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tilemap">
+    <Position X="42.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAABIAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\Tilemap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputInterface">
+    <Position X="45.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAQEAAAAAA=</HashCode>
+      <FileName>Simulation\InputSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputSystem">
+    <Position X="45.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAIAAIEAAAAIABAAQAAAAAAQsAAAAAAAECAA=</HashCode>
+      <FileName>Simulation\InputSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldSystem">
+    <Position X="44" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYIJEKAQABARIWAAAAcEBSAAACAABBxIEKAABgCEBMA=</HashCode>
+      <FileName>Simulation\WorldSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionMask">
+    <Position X="47.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIgAAACAAAAABAAAAAEACAAAAQACAAEAAAAAAAAA=</HashCode>
+      <FileName>Simulation\Physics\CollisionMask.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyVector">
+    <Position X="49.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAQAAKAAABgQAAQIIAAAAkAABgAAAkAAA=</HashCode>
+      <FileName>Simulation\Physics\MyVector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Physics">
+    <Position X="47.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAIAAAAAAoAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Simulation\Physics\Physics.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundSystem">
+    <Position X="35.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAACQAIBBAIQgQBAAAAAAIIAwoIAACEAAgAAA=</HashCode>
+      <FileName>Sound\SoundSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pugi::xml_node_iterator" Collapsed="true">
+    <Position X="23" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAQAEAAwAQAAAAAAAAAAAgAAAAAAg=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pugi::xml_attribute_iterator" Collapsed="true">
+    <Position X="17.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAQAEAAwAQAAAAAAAAAAAgAAAAAAg=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pugi::xml_named_node_iterator" Collapsed="true">
+    <Position X="21.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAACAAAQAEAAwAQAAAAAAAAAAAgAAAAAAg=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pugi::xml_tree_walker" Collapsed="true">
+    <Position X="28.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAIAAACAAAAAAAAAAAAAAAQAAAAABAAAAAgIAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pugi::xml_node" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCQIgAgCIBC0iyRIAgTqqQASIMEFGDBIAlAgGFgAIQA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pugi::xml_text" Collapsed="true">
+    <Position X="26.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABAAQAAAABAwARAQCAAAAABACgQIwAAAAAAg=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pugi::xpath_node" Collapsed="true">
+    <Position X="21.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAABAAAAEAAABAAgAAAQAAAAAAABAAAAAgABAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pugi::xpath_node_set" Collapsed="true">
+    <Position X="23" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAEQAAQgAIEgAAASEAEBAAAAAAAgAAQAgAA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pugi::xpath_query" Collapsed="true">
+    <Position X="26.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAACBAAACIAABgAQABAAAAAgAAIgAIA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pugi::xpath_variable_set" Collapsed="true">
+    <Position X="16" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAABAEAAIAAAAQAQAAAAAAAAAAAAAAgIAACAEQ=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pugi::xml_object_range&lt;It&gt;" Collapsed="true">
+    <Position X="24.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAgAAAAAAASAAAAAIAAAAAAAAQAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pugi::xml_writer" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pugi::xml_writer_file" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAQAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pugi::xml_writer_stream" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pugi::xml_attribute" Collapsed="true">
+    <Position X="16" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAABAgABRBCABAEALAAgRIgCEAAAAg=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pugi::xml_document" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAkAoGAIAAAIAAAAAgIAAACAgAAAAAgQAAAAEA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pugi::xpath_variable" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAEAAAAAA0ABAQAAAAAAAAFAAAgAAAgAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pugi::xpath_exception" Collapsed="true">
+    <Position X="17.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABCBAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ImGuiResizeGripDef" Collapsed="true">
+    <Position X="19.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAABAAAAAiAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMGUI\imgui.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ImGuiResizeBorderDef" Collapsed="true">
+    <Position X="17.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAIAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMGUI\imgui.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ImTriangulatorNode" Collapsed="true">
+    <Position X="24.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAACAAEAAAQEEAAAAAAA=</HashCode>
+      <FileName>IMGUI\imgui_draw.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ImTriangulatorNodeSpan" Collapsed="true">
+    <Position X="26.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAEABAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMGUI\imgui_draw.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ImTriangulator" Collapsed="true">
+    <Position X="23" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAEAADAIAAABAAAABAAAABAAAAQAAACQgAIAAE=</HashCode>
+      <FileName>IMGUI\imgui_draw.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ImFontBuildSrcData" Collapsed="true">
+    <Position X="26.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAQABAAAAGAAAAAAAAAAAAAAAgIAAAAAACAAAoAAA=</HashCode>
+      <FileName>IMGUI\imgui_draw.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ImFontBuildDstData" Collapsed="true">
+    <Position X="24.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>IMGUI\imgui_draw.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ImGuiGetNameFromIndexOldToNewCallbackData" Collapsed="true">
+    <Position X="28.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>IMGUI\imgui_widgets.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ImGuiPlotArrayGetterData" Collapsed="true">
+    <Position X="16" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAQAAAAAgAAAAAAA=</HashCode>
+      <FileName>IMGUI\imgui_widgets.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ImGuiTabBarSection" Collapsed="true">
+    <Position X="21.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAIAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMGUI\imgui_widgets.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xml_memory_management_function_storage&lt;T&gt;" Collapsed="true">
+    <Position X="14" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="auto_deleter&lt;T&gt;" Collapsed="true">
+    <Position X="16" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAEQAAAAAEA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xml_memory_page" Collapsed="true">
+    <Position X="28.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAIAAAAAAAAAgAAAAAABBAAIBBAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xml_memory_string_header" Collapsed="true">
+    <Position X="16" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xml_allocator" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAABAAQAQQCAAAAAIAEAAAAAAAAJIAAAAAAACAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xml_extra_buffer" Collapsed="true">
+    <Position X="26.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAIAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xml_document_struct" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAgAEAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="opt_false" Collapsed="true">
+    <Position X="28.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="opt_true" Collapsed="true">
+    <Position X="16" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="utf8_counter" Collapsed="true">
+    <Position X="26.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="utf8_writer" Collapsed="true">
+    <Position X="16" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAACAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="utf16_counter" Collapsed="true">
+    <Position X="16" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="utf16_writer" Collapsed="true">
+    <Position X="19.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAACAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="utf32_counter" Collapsed="true">
+    <Position X="21.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="utf32_writer" Collapsed="true">
+    <Position X="24.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAACAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="latin1_writer" Collapsed="true">
+    <Position X="16" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="utf8_decoder" Collapsed="true">
+    <Position X="28.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="utf16_decoder&lt;opt_swap&gt;" Collapsed="true">
+    <Position X="17.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="utf32_decoder&lt;opt_swap&gt;" Collapsed="true">
+    <Position X="23" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="latin1_decoder" Collapsed="true">
+    <Position X="28.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="wchar_selector&lt;2&gt;" Collapsed="true">
+    <Position X="19.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="wchar_selector&lt;4&gt;" Collapsed="true">
+    <Position X="21.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="wchar_decoder" Collapsed="true">
+    <Position X="17.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="gap" Collapsed="true">
+    <Position X="23" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAACAAAAAAAAAIAAAAAAAAAAAAAAAAgIAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="strconv_pcdata_impl&lt;opt_trim, opt_eol, opt_escape&gt;" Collapsed="true">
+    <Position X="23" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="strconv_attribute_impl&lt;opt_escape&gt;" Collapsed="true">
+    <Position X="21.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAgAAAAAAgAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xml_parser" Collapsed="true">
+    <Position X="19.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgABBAAAAEAAAACAgQAgAAAAAAAEIAAAAAAAAAIgA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xml_stream_chunk&lt;T&gt;" Collapsed="true">
+    <Position X="21.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAIAAAEAAAAAAAAAAAABQAAIAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="name_null_sentry" Collapsed="true">
+    <Position X="23" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="equal_to" Collapsed="true">
+    <Position X="21.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="not_equal_to" Collapsed="true">
+    <Position X="26.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="less" Collapsed="true">
+    <Position X="17.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="less_equal" Collapsed="true">
+    <Position X="19.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xpath_memory_block" Collapsed="true">
+    <Position X="16" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xpath_allocator" Collapsed="true">
+    <Position X="23" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBQAAAAAAAAQAAAABAAAAAAAAAAAKAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xpath_allocator_capture" Collapsed="true">
+    <Position X="24.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAgAAACAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xpath_stack" Collapsed="true">
+    <Position X="23" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xpath_stack_data" Collapsed="true">
+    <Position X="24.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAABAAAEAAAAAAAAICAIAAAAAAABAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="document_order_comparator" Collapsed="true">
+    <Position X="19.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="namespace_uri_predicate" Collapsed="true">
+    <Position X="24.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAIAAAAAAAAAAEAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xpath_variable_boolean" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAEACAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xpath_variable_number" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAEACAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xpath_variable_string" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAEACAAAgAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xpath_variable_node_set" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAEACAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xpath_context" Collapsed="true">
+    <Position X="26.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAIAAAAAAAAAAgEAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xpath_lexer_string" Collapsed="true">
+    <Position X="28.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAGAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="axis_to_type&lt;N&gt;" Collapsed="true">
+    <Position X="17.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xpath_parser" Collapsed="true">
+    <Position X="19.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIgAREAAAAIAAiQAEQBgQAAAAACAAAIAQACgACJCI=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xpath_query_impl" Collapsed="true">
+    <Position X="21.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAACAAgEEAAAAAAAAAAAABAAAAABAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Pallete">
+    <Position X="34" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\GraphicsSystem.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TileSettings">
+    <Position X="42.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAUAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\Tilemap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Tile">
+    <Position X="42.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIABAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Graphics\Tilemap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LevelTrigger">
+    <Position X="44" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAgCACAAAAAAAAA=</HashCode>
+      <FileName>Simulation\WorldSystem.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="`anonymous-namespace'::StickInfo" Collapsed="true">
+    <Position X="19.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAQAAAAAAAAAAAAAAACAAAAAAAGAAAAA=</HashCode>
+      <FileName>IMGUI\imgui-SFML.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="`anonymous-namespace'::TriggerInfo" Collapsed="true">
+    <Position X="28.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMGUI\imgui-SFML.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="`anonymous-namespace'::WindowContext" Collapsed="true">
+    <Position X="23" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECEAAAAIAAAAEAAABAEAAAIAAGAIAAAYQkAoACJAAAA=</HashCode>
+      <FileName>IMGUI\imgui-SFML.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="pugi::xml_attribute_struct" Collapsed="true">
+    <Position X="24.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAQAAAAAAAAAAAAAAgBAAAAEACAAAAAEAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="pugi::xml_node_struct" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAYAAAAAAABAAAAAIBAAAAAEACBAAAAEAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="pugi::xml_parse_result" Collapsed="true">
+    <Position X="17.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAAAEMAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="pugi::xpath_parse_result" Collapsed="true">
+    <Position X="17.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAEIAEAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="pugi::uintptr_t" Collapsed="true">
+    <Position X="17.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pugi::uint8_t" Collapsed="true">
+    <Position X="16" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pugi::uint16_t" Collapsed="true">
+    <Position X="26.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pugi::uint32_t" Collapsed="true">
+    <Position X="28.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="xml_memory" Collapsed="true">
+    <Position X="14" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="wchar_counter" Collapsed="true">
+    <Position X="19.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="wchar_writer" Collapsed="true">
+    <Position X="21.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="strconv_pcdata_t" Collapsed="true">
+    <Position X="23" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="strconv_attribute_t" Collapsed="true">
+    <Position X="21.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pugi::char_t" Collapsed="true">
+    <Position X="17.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pugi::string_t" Collapsed="true">
+    <Position X="24.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pugi::allocation_function" Collapsed="true">
+    <Position X="16" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pugi::deallocation_function" Collapsed="true">
+    <Position X="19.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="ImTriangulatorNodeType" Collapsed="true">
+    <Position X="24.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>IMGUI\imgui_draw.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="chartype_t" Collapsed="true">
+    <Position X="19.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAARCAAAAAgBAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="chartypex_t" Collapsed="true">
+    <Position X="21.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAEIAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="indent_flags_t" Collapsed="true">
+    <Position X="26.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="lexeme_t" Collapsed="true">
+    <Position X="16" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MgAAAAACQQhAAABAANAAgAEAABABAEAAACIAAAEghQQ=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ast_type_t" Collapsed="true">
+    <Position X="16" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>lQEgAIJQgkuCcSAAgRIIMBgAigAQAEQUgIEAgCBBAIQ=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="axis_t" Collapsed="true">
+    <Position X="17.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECgAQAAAAAAEAAAGAAAACQgAAAAAAAABkAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="nodetest_t" Collapsed="true">
+    <Position X="19.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAACAAAAAAAAAACAAAAgIAAAAAAgAQgAAAAAAAgA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="predicate_t" Collapsed="true">
+    <Position X="23" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="nodeset_eval_t" Collapsed="true">
+    <Position X="17.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAACAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OcttoState" Collapsed="true">
+    <Position X="21.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\OcttoEnemy.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Input">
+    <Position X="45.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAACAAAAAAAAAAQDgAAAAAAAAACACAQAAAAAI=</HashCode>
+      <FileName>Simulation\InputSystem.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Difficulty" Collapsed="true">
+    <Position X="23" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Simulation\WorldSystem.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="pugi::xml_node_type" Collapsed="true">
+    <Position X="26.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQDAACAgAAAAAAAAAAAAAACAAAAAAAAAAAAAQAAACA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="pugi::xml_encoding" Collapsed="true">
+    <Position X="24.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAUAAEAiEIQAAAAAAAAAAABEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="pugi::xml_parse_status" Collapsed="true">
+    <Position X="28.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgggAAgAAAIABAAAAAAAAAAAEAAAIBgEAqAQQAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="pugi::xpath_value_type" Collapsed="true">
+    <Position X="16" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEBAAAIEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pugixml\src\pugixml.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

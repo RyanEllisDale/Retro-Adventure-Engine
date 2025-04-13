@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <!-- This Level Data: -->
+    <name>Level3</name>
+    <backgroundColour>
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+    </backgroundColour>
+    <backgroundMusic>Data/Music/adventureTheme.wav</backgroundMusic>
+    
+    <!-- Connected Levels -->
+    <surroundingLevels>
+        <triggers>
+        </triggers>
+        
+        <bounds>
+            <bound active="false">...</bound> <!-- Left -->
+            <bound active="false">...</bound> <!-- up -->
+            <bound active="true">Data/Levels/Level5.xml</bound> <!-- Right -->
+            <bound active="true">Data/Levels/Level1.xml</bound> <!-- Down -->
+        </bounds>
+    </surroundingLevels>
+
+    <!-- Entities -->
+    <entities>
+		<entity xPosition="288" yPosition="128">copter</entity>
+		<entity xPosition="178" yPosition="256">copter</entity>
+    </entities>
+
+
+    <!-- Tilesheet Data -->
+    <pallete>0</pallete>
+    <tilesheetPath>Data/Textures/tileset.png</tilesheetPath>
+    <collisionIndexes>
+        <index>50</index>
+        <index>51</index>
+        <index>52</index>
+        <index>53</index>
+        <index>54</index>
+        <index>55</index>
+    </collisionIndexes>
+    <tiles>
+        <tileRow index="0">
+            <tile index="54">0</tile>
+            <tile index="54">1</tile>
+            <tile index="54">2</tile>
+            <tile index="54">3</tile>
+            <tile index="54">4</tile>
+            <tile index="54">5</tile>
+            <tile index="54">6</tile>
+            <tile index="54">7</tile>
+            <tile index="54">8</tile>
+            <tile index="54">9</tile>
+            <tile index="54">10</tile>
+            <tile index="54">11</tile>
+            <tile index="54">12</tile>
+            <tile index="54">13</tile>
+            <tile index="54">14</tile>
+            <tile index="54">15</tile>
+        </tileRow>
+        <tileRow index="1">
+            <tile index="54">16</tile>
+            <tile index="54">17</tile>
+            <tile index="54">18</tile>
+            <tile index="54">19</tile>
+            <tile index="54">20</tile>
+            <tile index="54">21</tile>
+            <tile index="54">22</tile>
+            <tile index="54">23</tile>
+            <tile index="54">24</tile>
+            <tile index="54">25</tile>
+            <tile index="54">26</tile>
+            <tile index="54">27</tile>
+            <tile index="54">28</tile>
+            <tile index="54">29</tile>
+            <tile index="54">30</tile>
+            <tile index="54">31</tile>
+        </tileRow>
+        <tileRow index="2">
+            <tile index="54">32</tile>
+            <tile index="54">33</tile>
+            <tile index="54">34</tile>
+            <tile index="55">35</tile>
+            <tile index="23">36</tile>
+            <tile index="23">37</tile>
+            <tile index="23">38</tile>
+            <tile index="23">39</tile>
+            <tile index="23">40</tile>
+            <tile index="23">41</tile>
+            <tile index="23">42</tile>
+            <tile index="23">43</tile>
+            <tile index="23">44</tile>
+            <tile index="53">45</tile>
+            <tile index="54">46</tile>
+            <tile index="54">47</tile>
+        </tileRow>
+        <tileRow index="3">
+            <tile index="54">48</tile>
+            <tile index="54">49</tile>
+            <tile index="55">50</tile>
+            <tile index="23">51</tile>
+            <tile index="50">52</tile>
+            <tile index="23">53</tile>
+            <tile index="23">54</tile>
+            <tile index="50">55</tile>
+            <tile index="23">56</tile>
+            <tile index="23">57</tile>
+            <tile index="23">58</tile>
+            <tile index="50">59</tile>
+            <tile index="23">60</tile>
+            <tile index="23">61</tile>
+            <tile index="53">62</tile>
+            <tile index="54">63</tile>
+        </tileRow>
+        <tileRow index="4">
+            <tile index="54">64</tile>
+            <tile index="55">65</tile>
+            <tile index="23">66</tile>
+            <tile index="23">67</tile>
+            <tile index="23">68</tile>
+            <tile index="23">69</tile>
+            <tile index="23">70</tile>
+            <tile index="23">71</tile>
+            <tile index="23">72</tile>
+            <tile index="23">73</tile>
+            <tile index="23">74</tile>
+            <tile index="23">75</tile>
+            <tile index="23">76</tile>
+            <tile index="23">77</tile>
+            <tile index="23">78</tile>
+            <tile index="53">79</tile>
+        </tileRow>
+        <tileRow index="5">
+            <tile index="54">80</tile>
+            <tile index="23">81</tile>
+            <tile index="23">82</tile>
+            <tile index="23">83</tile>
+            <tile index="23">84</tile>
+            <tile index="23">85</tile>
+            <tile index="23">86</tile>
+            <tile index="23">87</tile>
+            <tile index="23">88</tile>
+            <tile index="23">89</tile>
+            <tile index="23">90</tile>
+            <tile index="23">91</tile>
+            <tile index="23">92</tile>
+            <tile index="23">93</tile>
+            <tile index="23">94</tile>
+            <tile index="23">95</tile>
+        </tileRow>
+        <tileRow index="6">
+            <tile index="54">96</tile>
+            <tile index="55" yFlip="true">97</tile>
+            <tile index="23">98</tile>
+            <tile index="23">99</tile>
+            <tile index="50">100</tile>
+            <tile index="23">101</tile>
+            <tile index="23">102</tile>
+            <tile index="50">103</tile>
+            <tile index="23">104</tile>
+            <tile index="23">105</tile>
+            <tile index="23">106</tile>
+            <tile index="50">107</tile>
+            <tile index="23">108</tile>
+            <tile index="23">109</tile>
+            <tile index="23">110</tile>
+            <tile index="23">111</tile>
+        </tileRow>
+        <tileRow index="7">
+            <tile index="54">112</tile>
+            <tile index="54">113</tile>
+            <tile index="23">114</tile>
+            <tile index="23">115</tile>
+            <tile index="23">116</tile>
+            <tile index="23">117</tile>
+            <tile index="23">118</tile>
+            <tile index="23">119</tile>
+            <tile index="23">120</tile>
+            <tile index="23">121</tile>
+            <tile index="23">122</tile>
+            <tile index="23">123</tile>
+            <tile index="23">124</tile>
+            <tile index="23">125</tile>
+            <tile index="23">126</tile>
+            <tile index="23">127</tile>
+        </tileRow>
+        <tileRow index="8">
+            <tile index="54">128</tile>
+            <tile index="54">129</tile>
+            <tile index="23">130</tile>
+            <tile index="23">131</tile>
+            <tile index="23">132</tile>
+            <tile index="23">133</tile>
+            <tile index="23">134</tile>
+            <tile index="23">135</tile>
+            <tile index="23">136</tile>
+            <tile index="23">137</tile>
+            <tile index="23">138</tile>
+            <tile index="23">139</tile>
+            <tile index="23">140</tile>
+            <tile index="23">141</tile>
+            <tile index="23">142</tile>
+            <tile index="23">143</tile>
+        </tileRow>
+        <tileRow index="9">
+            <tile index="54">144</tile>
+            <tile index="54">145</tile>
+            <tile index="23">146</tile>
+            <tile index="23">147</tile>
+            <tile index="50">148</tile>
+            <tile index="23">149</tile>
+            <tile index="23">150</tile>
+            <tile index="50">151</tile>
+            <tile index="23">152</tile>
+            <tile index="23">153</tile>
+            <tile index="53" yFlip="true">154</tile>
+            <tile index="54">155</tile>
+            <tile index="54">156</tile>
+            <tile index="54">157</tile>
+            <tile index="54">158</tile>
+            <tile index="54">159</tile>
+        </tileRow>
+        <tileRow index="10">
+            <tile index="54">160</tile>
+            <tile index="54">161</tile>
+            <tile index="23">162</tile>
+            <tile index="23">163</tile>
+            <tile index="23">164</tile>
+            <tile index="23">165</tile>
+            <tile index="23">166</tile>
+            <tile index="23">167</tile>
+            <tile index="23">168</tile>
+            <tile index="23">169</tile>
+            <tile index="54">170</tile>
+            <tile index="54">171</tile>
+            <tile index="54">172</tile>
+            <tile index="54">173</tile>
+            <tile index="54">174</tile>
+            <tile index="54">175</tile>
+        </tileRow>
+        <tileRow index="11">
+            <tile index="54">176</tile>
+            <tile index="54">177</tile>
+            <tile index="52">178</tile>
+            <tile index="52">179</tile>
+            <tile index="23">180</tile>
+            <tile index="23">181</tile>
+            <tile index="23">182</tile>
+            <tile index="23">183</tile>
+            <tile index="23">184</tile>
+            <tile index="23">185</tile>
+            <tile index="54">186</tile>
+            <tile index="54">187</tile>
+            <tile index="54">188</tile>
+            <tile index="54">189</tile>
+            <tile index="54">190</tile>
+            <tile index="54">191</tile>
+        </tileRow>
+        <tileRow index="12">
+            <tile index="54">192</tile>
+            <tile index="54">193</tile>
+            <tile index="54">194</tile>
+            <tile index="54">195</tile>
+            <tile index="55" yFlip="true">196</tile>
+            <tile index="23">197</tile>
+            <tile index="23">198</tile>
+            <tile index="23">199</tile>
+            <tile index="23">200</tile>
+            <tile index="53" yFlip="true">201</tile>
+            <tile index="54">202</tile>
+            <tile index="54">203</tile>
+            <tile index="54">204</tile>
+            <tile index="54">205</tile>
+            <tile index="54">206</tile>
+            <tile index="54">207</tile>
+        </tileRow>
+        <tileRow index="13">
+            <tile index="54">208</tile>
+            <tile index="54">209</tile>
+            <tile index="54">210</tile>
+            <tile index="54">211</tile>
+            <tile index="54">212</tile>
+            <tile index="55" yFlip="true">213</tile>
+            <tile index="23">214</tile>
+            <tile index="23">215</tile>
+            <tile index="23">216</tile>
+            <tile index="54">217</tile>
+            <tile index="54">218</tile>
+            <tile index="54">219</tile>
+            <tile index="54">220</tile>
+            <tile index="54">221</tile>
+            <tile index="54">222</tile>
+            <tile index="54">223</tile>
+        </tileRow>
+        <tileRow index="14">
+            <tile index="54">224</tile>
+            <tile index="54">225</tile>
+            <tile index="54">226</tile>
+            <tile index="54">227</tile>
+            <tile index="54">228</tile>
+            <tile index="54">229</tile>
+            <tile index="54">230</tile>
+            <tile index="23">231</tile>
+            <tile index="23">232</tile>
+            <tile index="54">233</tile>
+            <tile index="54">234</tile>
+            <tile index="54">235</tile>
+            <tile index="54">236</tile>
+            <tile index="54">237</tile>
+            <tile index="54">238</tile>
+            <tile index="54">239</tile>
+        </tileRow>
+    </tiles>
+
+</root>
