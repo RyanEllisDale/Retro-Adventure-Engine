@@ -1,0 +1,30 @@
+﻿C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(551,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (GecProject.vcxproj, Retro-Adventure-Engine.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Character.cpp
+  Entity.cpp
+  PhysicsEntity.cpp
+  CopterEnemy.cpp
+  OcttoEnemy.cpp
+  Player.cpp
+  projectile.cpp
+  Sword.cpp
+  Animation.cpp
+  GraphicsSystem.cpp
+  Tilemap.cpp
+  imgui-SFML.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  main.cpp
+  pugixml.cpp
+  RedirectCout.h
+  InputSystem.cpp
+  Generating Code...
+  Compiling...
+  CollisionMask.cpp
+  MyVector.cpp
+  WorldSystem.cpp
+  SoundSystem.cpp
+  Generating Code...
+sfml-main-d.lib(MainWin32.obj) : warning LNK4099: PDB 'sfml-main-s.pdb' was not found with 'sfml-main-d.lib(MainWin32.obj)' or at 'C:\Users\Green\Documents\GitHub\Retro-Adventure-Engine\x64\Debug\sfml-main-s.pdb'; linking object as if no debug info
+  Retro Adventure Engine.vcxproj -> C:\Users\Green\Documents\GitHub\Retro-Adventure-Engine\x64\Debug\Main Engine Source.exe
